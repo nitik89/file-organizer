@@ -1,0 +1,14 @@
+{
+  "name": "activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "peppy": "node main.js"
+  },
+  "bin": {
+    "peppy": "main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

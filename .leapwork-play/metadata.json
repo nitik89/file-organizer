@@ -1,102 +1,71 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T15:33:57.301Z",
+  "generatedAt": "2026-10-30T15:46:06.893Z",
   "repo": {
-    "connectorId": 14,
+    "connectorId": 141,
     "repoSlug": "nitik89/file-organizer",
     "baseBranch": "main"
   },
   "team": {
-    "assetId": 1,
+    "assetId": 16348,
     "displayId": "TM-1",
-    "name": "My Team"
+    "name": "New team"
   },
   "tree": [
     {
-      "assetId": 176,
-      "displayId": "FD-25",
-      "name": "AI Review Agent Orchestration",
+      "assetId": 35101,
+      "displayId": "FD-9",
+      "name": "User Preferences and Interface",
       "kind": "folder",
       "children": [
         {
-          "assetId": 177,
+          "assetId": 35103,
           "displayId": "TC-63",
-          "name": "Long review conversation is trimmed without losing review context",
+          "name": "Negative Test: Invalid Decimal Precision Input Handling",
           "kind": "test-case",
-          "repoPath": "AI Review Agent Orchestration/TC-63-Long-review-conversation-is-trimmed-without-losing-review-context.spec.ts"
+          "repoPath": "User Preferences and Interface/TC-63-Negative-Test-Invalid-Decimal-Precision-Input-Handling.spec.ts"
         }
       ]
     },
     {
-      "assetId": 129,
-      "displayId": "FD-11",
-      "name": "New folder",
-      "kind": "folder",
-      "children": [
-        {
-          "assetId": 367,
-          "displayId": "FD-33",
-          "name": "Basic Arithmetic and Result Display",
-          "kind": "folder",
-          "children": [
-            {
-              "assetId": 369,
-              "displayId": "TC-75",
-              "name": "Calculate addition with keyboard input",
-              "kind": "test-case",
-              "repoPath": "New folder/Basic Arithmetic and Result Display/TC-75-Calculate-addition-with-keyboard-input.spec.ts"
-            },
-            {
-              "assetId": 494,
-              "displayId": "TC-180",
-              "name": "Calculate addition with mouse input",
-              "kind": "test-case",
-              "repoPath": "New folder/Basic Arithmetic and Result Display/TC-180-Calculate-addition-with-mouse-input.spec.ts"
-            },
-            {
-              "assetId": 375,
-              "displayId": "TC-81",
-              "name": "Keep calculator actions responsive across input methods",
-              "kind": "test-case",
-              "repoPath": "New folder/Basic Arithmetic and Result Display/TC-81-Keep-calculator-actions-responsive-across-input-methods.spec.ts"
-            }
-          ]
-        }
-      ]
+      "assetId": 18296,
+      "displayId": "AG-1",
+      "name": "New agent",
+      "kind": "agent",
+      "repoPath": "AG-1-New-agent.agent.json"
+    },
+    {
+      "assetId": 35115,
+      "displayId": "AG-3",
+      "name": "New agent",
+      "kind": "agent",
+      "repoPath": "AG-3-New-agent.agent.json"
     }
   ],
   "files": [
     {
-      "assetId": 177,
+      "assetId": 18296,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "New agent",
+      "repoPath": "AG-1-New-agent.agent.json",
+      "parentAssetId": 16348
+    },
+    {
+      "assetId": 35115,
+      "assetKind": "agent",
+      "displayId": "AG-3",
+      "name": "New agent",
+      "repoPath": "AG-3-New-agent.agent.json",
+      "parentAssetId": 16348
+    },
+    {
+      "assetId": 35103,
       "assetKind": "test-case",
       "displayId": "TC-63",
-      "name": "Long review conversation is trimmed without losing review context",
-      "repoPath": "AI Review Agent Orchestration/TC-63-Long-review-conversation-is-trimmed-without-losing-review-context.spec.ts",
-      "parentAssetId": 176
-    },
-    {
-      "assetId": 494,
-      "assetKind": "test-case",
-      "displayId": "TC-180",
-      "name": "Calculate addition with mouse input",
-      "repoPath": "New folder/Basic Arithmetic and Result Display/TC-180-Calculate-addition-with-mouse-input.spec.ts",
-      "parentAssetId": 367
-    },
-    {
-      "assetId": 369,
-      "assetKind": "test-case",
-      "displayId": "TC-75",
-      "name": "Calculate addition with keyboard input",
-      "repoPath": "New folder/Basic Arithmetic and Result Display/TC-75-Calculate-addition-with-keyboard-input.spec.ts",
-      "parentAssetId": 367
-    },
-    {
-      "assetId": 375,
-      "assetKind": "test-case",
-      "displayId": "TC-81",
-      "name": "Keep calculator actions responsive across input methods",
-      "repoPath": "New folder/Basic Arithmetic and Result Display/TC-81-Keep-calculator-actions-responsive-across-input-methods.spec.ts",
-      "parentAssetId": 367
+      "name": "Negative Test: Invalid Decimal Precision Input Handling",
+      "repoPath": "User Preferences and Interface/TC-63-Negative-Test-Invalid-Decimal-Precision-Input-Handling.spec.ts",
+      "parentAssetId": 35101
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T17:43:05.077Z",
+  "generatedAt": "2026-11-02T06:26:31.746Z",
   "repo": {
     "connectorId": 141,
     "repoSlug": "nitik89/file-organizer",
@@ -33,6 +33,13 @@
       "name": "Calculator Input and Formatting",
       "kind": "folder",
       "children": [
+        {
+          "assetId": 35063,
+          "displayId": "TC-28",
+          "name": "Enter decimal number using keyboard",
+          "kind": "test-case",
+          "repoPath": "Calculator Input and Formatting/TC-28-Enter-decimal-number-using-keyboard.spec.ts"
+        },
         {
           "assetId": 35067,
           "displayId": "TC-32",
@@ -86,11 +93,25 @@
       "kind": "folder",
       "children": [
         {
+          "assetId": 35102,
+          "displayId": "TC-62",
+          "name": "Check UI Consistency After Toggling Themes Rapidly",
+          "kind": "test-case",
+          "repoPath": "User Preferences and Interface/TC-62-Check-UI-Consistency-After-Toggling-Themes-Rapidly.spec.ts"
+        },
+        {
           "assetId": 35103,
           "displayId": "TC-63",
           "name": "Negative Test: Invalid Decimal Precision Input Handling",
           "kind": "test-case",
           "repoPath": "User Preferences and Interface/TC-63-Negative-Test-Invalid-Decimal-Precision-Input-Handling.spec.ts"
+        },
+        {
+          "assetId": 35104,
+          "displayId": "TC-64",
+          "name": "Persistence of Theme Selection After Reopening App",
+          "kind": "test-case",
+          "repoPath": "User Preferences and Interface/TC-64-Persistence-of-Theme-Selection-After-Reopening-App.spec.ts"
         },
         {
           "assetId": 35105,
@@ -100,6 +121,13 @@
           "repoPath": "User Preferences and Interface/TC-65-Toggle-Application-Theme-to-Dark-Mode.spec.ts"
         }
       ]
+    },
+    {
+      "assetId": 24941,
+      "displayId": "TC-8",
+      "name": "Delete existing models",
+      "kind": "test-case",
+      "repoPath": "TC-8-Delete-existing-models.spec.ts"
     },
     {
       "assetId": 18296,
@@ -142,6 +170,14 @@
       "parentAssetId": 35051
     },
     {
+      "assetId": 35063,
+      "assetKind": "test-case",
+      "displayId": "TC-28",
+      "name": "Enter decimal number using keyboard",
+      "repoPath": "Calculator Input and Formatting/TC-28-Enter-decimal-number-using-keyboard.spec.ts",
+      "parentAssetId": 35062
+    },
+    {
       "assetId": 35067,
       "assetKind": "test-case",
       "displayId": "TC-32",
@@ -174,11 +210,35 @@
       "parentAssetId": 35071
     },
     {
+      "assetId": 24941,
+      "assetKind": "test-case",
+      "displayId": "TC-8",
+      "name": "Delete existing models",
+      "repoPath": "TC-8-Delete-existing-models.spec.ts",
+      "parentAssetId": 16348
+    },
+    {
+      "assetId": 35102,
+      "assetKind": "test-case",
+      "displayId": "TC-62",
+      "name": "Check UI Consistency After Toggling Themes Rapidly",
+      "repoPath": "User Preferences and Interface/TC-62-Check-UI-Consistency-After-Toggling-Themes-Rapidly.spec.ts",
+      "parentAssetId": 35101
+    },
+    {
       "assetId": 35103,
       "assetKind": "test-case",
       "displayId": "TC-63",
       "name": "Negative Test: Invalid Decimal Precision Input Handling",
       "repoPath": "User Preferences and Interface/TC-63-Negative-Test-Invalid-Decimal-Precision-Input-Handling.spec.ts",
+      "parentAssetId": 35101
+    },
+    {
+      "assetId": 35104,
+      "assetKind": "test-case",
+      "displayId": "TC-64",
+      "name": "Persistence of Theme Selection After Reopening App",
+      "repoPath": "User Preferences and Interface/TC-64-Persistence-of-Theme-Selection-After-Reopening-App.spec.ts",
       "parentAssetId": 35101
     },
     {

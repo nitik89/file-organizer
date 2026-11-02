@@ -136,3 +136,4 @@ await leapwork.step("Click the Upload file button", async () => {
     // Click button "Upload file"
     await page.getByRole('button', { name: 'Upload file' }).click();
 }, { action: "click", relativeXpath: ".//div[2]/div[1]/div/div/span/button" });
+//fsdfsdfksdl;fkdsl;

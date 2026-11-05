@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T11:02:37.027Z",
+  "generatedAt": "2026-11-05T11:02:36.968Z",
   "repo": {
-    "connectorId": 606,
+    "connectorId": 141,
     "repoSlug": "nitik89/file-organizer",
     "baseBranch": "main"
   },
@@ -13,29 +13,226 @@
   },
   "tree": [
     {
+      "assetId": 35051,
+      "displayId": "FD-3",
+      "name": "Arithmetic Operations and Evaluation",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 35055,
+          "displayId": "TC-21",
+          "name": "Test reset functionality after error",
+          "kind": "test-case",
+          "repoPath": "Arithmetic Operations and Evaluation/TC-21-Test-reset-functionality-after-error.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 35062,
+      "displayId": "FD-4",
+      "name": "Calculator Input and Formatting",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 35063,
+          "displayId": "TC-28",
+          "name": "Enter decimal number using keyboard",
+          "kind": "test-case",
+          "repoPath": "Calculator Input and Formatting/TC-28-Enter-decimal-number-using-keyboard.spec.ts"
+        },
+        {
+          "assetId": 35067,
+          "displayId": "TC-32",
+          "name": "Multiple decimal points error handling",
+          "kind": "test-case",
+          "repoPath": "Calculator Input and Formatting/TC-32-Multiple-decimal-points-error-handling.spec.ts"
+        }
+      ]
+    },
+    {
       "assetId": 18918,
       "displayId": "FD-1",
       "name": "Calculator requirements",
       "kind": "folder",
       "children": [
         {
-          "assetId": 18923,
-          "displayId": "TC-6",
-          "name": "Divide two single-digit numbers and show the result",
+          "assetId": 18922,
+          "displayId": "TC-5",
+          "name": "Multiply two single-digit numbers and show the result",
           "kind": "test-case",
-          "repoPath": "Calculator requirements/TC-6-Divide-two-single-digit-numbers-and-show-the-result.spec.ts"
+          "repoPath": "Calculator requirements/TC-5-Multiply-two-single-digit-numbers-and-show-the-result.spec.ts"
         }
       ]
+    },
+    {
+      "assetId": 35071,
+      "displayId": "FD-5",
+      "name": "History and Reloading",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 35073,
+          "displayId": "TC-37",
+          "name": "Negative test: Verify history reload into active expression",
+          "kind": "test-case",
+          "repoPath": "History and Reloading/TC-37-Negative-test-Verify-history-reload-into-active-expression.spec.ts"
+        },
+        {
+          "assetId": 35075,
+          "displayId": "TC-39",
+          "name": "Reload calculation from history",
+          "kind": "test-case",
+          "repoPath": "History and Reloading/TC-39-Reload-calculation-from-history.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 35101,
+      "displayId": "FD-9",
+      "name": "User Preferences and Interface",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 35102,
+          "displayId": "TC-62",
+          "name": "Check UI Consistency After Toggling Themes Rapidly",
+          "kind": "test-case",
+          "repoPath": "User Preferences and Interface/TC-62-Check-UI-Consistency-After-Toggling-Themes-Rapidly.spec.ts"
+        },
+        {
+          "assetId": 35103,
+          "displayId": "TC-63",
+          "name": "Negative Test: Invalid Decimal Precision Input Handling",
+          "kind": "test-case",
+          "repoPath": "User Preferences and Interface/TC-63-Negative-Test-Invalid-Decimal-Precision-Input-Handling.spec.ts"
+        },
+        {
+          "assetId": 35104,
+          "displayId": "TC-64",
+          "name": "Persistence of Theme Selection After Reopening App",
+          "kind": "test-case",
+          "repoPath": "User Preferences and Interface/TC-64-Persistence-of-Theme-Selection-After-Reopening-App.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 24941,
+      "displayId": "TC-8",
+      "name": "Delete existing models",
+      "kind": "test-case",
+      "repoPath": "TC-8-Delete-existing-models.spec.ts"
+    },
+    {
+      "assetId": 18296,
+      "displayId": "AG-1",
+      "name": "New agent",
+      "kind": "agent",
+      "repoPath": "AG-1-New-agent.agent.json"
+    },
+    {
+      "assetId": 35115,
+      "displayId": "AG-3",
+      "name": "New agent",
+      "kind": "agent",
+      "repoPath": "AG-3-New-agent.agent.json"
     }
   ],
   "files": [
     {
-      "assetId": 18923,
+      "assetId": 18296,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "New agent",
+      "repoPath": "AG-1-New-agent.agent.json",
+      "parentAssetId": 16348
+    },
+    {
+      "assetId": 35115,
+      "assetKind": "agent",
+      "displayId": "AG-3",
+      "name": "New agent",
+      "repoPath": "AG-3-New-agent.agent.json",
+      "parentAssetId": 16348
+    },
+    {
+      "assetId": 35055,
       "assetKind": "test-case",
-      "displayId": "TC-6",
-      "name": "Divide two single-digit numbers and show the result",
-      "repoPath": "Calculator requirements/TC-6-Divide-two-single-digit-numbers-and-show-the-result.spec.ts",
+      "displayId": "TC-21",
+      "name": "Test reset functionality after error",
+      "repoPath": "Arithmetic Operations and Evaluation/TC-21-Test-reset-functionality-after-error.spec.ts",
+      "parentAssetId": 35051
+    },
+    {
+      "assetId": 35063,
+      "assetKind": "test-case",
+      "displayId": "TC-28",
+      "name": "Enter decimal number using keyboard",
+      "repoPath": "Calculator Input and Formatting/TC-28-Enter-decimal-number-using-keyboard.spec.ts",
+      "parentAssetId": 35062
+    },
+    {
+      "assetId": 35067,
+      "assetKind": "test-case",
+      "displayId": "TC-32",
+      "name": "Multiple decimal points error handling",
+      "repoPath": "Calculator Input and Formatting/TC-32-Multiple-decimal-points-error-handling.spec.ts",
+      "parentAssetId": 35062
+    },
+    {
+      "assetId": 18922,
+      "assetKind": "test-case",
+      "displayId": "TC-5",
+      "name": "Multiply two single-digit numbers and show the result",
+      "repoPath": "Calculator requirements/TC-5-Multiply-two-single-digit-numbers-and-show-the-result.spec.ts",
       "parentAssetId": 18918
+    },
+    {
+      "assetId": 35073,
+      "assetKind": "test-case",
+      "displayId": "TC-37",
+      "name": "Negative test: Verify history reload into active expression",
+      "repoPath": "History and Reloading/TC-37-Negative-test-Verify-history-reload-into-active-expression.spec.ts",
+      "parentAssetId": 35071
+    },
+    {
+      "assetId": 35075,
+      "assetKind": "test-case",
+      "displayId": "TC-39",
+      "name": "Reload calculation from history",
+      "repoPath": "History and Reloading/TC-39-Reload-calculation-from-history.spec.ts",
+      "parentAssetId": 35071
+    },
+    {
+      "assetId": 24941,
+      "assetKind": "test-case",
+      "displayId": "TC-8",
+      "name": "Delete existing models",
+      "repoPath": "TC-8-Delete-existing-models.spec.ts",
+      "parentAssetId": 16348
+    },
+    {
+      "assetId": 35102,
+      "assetKind": "test-case",
+      "displayId": "TC-62",
+      "name": "Check UI Consistency After Toggling Themes Rapidly",
+      "repoPath": "User Preferences and Interface/TC-62-Check-UI-Consistency-After-Toggling-Themes-Rapidly.spec.ts",
+      "parentAssetId": 35101
+    },
+    {
+      "assetId": 35103,
+      "assetKind": "test-case",
+      "displayId": "TC-63",
+      "name": "Negative Test: Invalid Decimal Precision Input Handling",
+      "repoPath": "User Preferences and Interface/TC-63-Negative-Test-Invalid-Decimal-Precision-Input-Handling.spec.ts",
+      "parentAssetId": 35101
+    },
+    {
+      "assetId": 35104,
+      "assetKind": "test-case",
+      "displayId": "TC-64",
+      "name": "Persistence of Theme Selection After Reopening App",
+      "repoPath": "User Preferences and Interface/TC-64-Persistence-of-Theme-Selection-After-Reopening-App.spec.ts",
+      "parentAssetId": 35101
     }
   ]
 }
